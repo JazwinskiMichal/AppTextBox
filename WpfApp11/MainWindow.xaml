@@ -8,7 +8,11 @@
         Width="800"
         Height="450"
         mc:Ignorable="d">
-    <local:AppTextBox Width="200"
-                      Height="50"
-                      Text="{Binding TestString}"/>
+    <StackPanel VerticalAlignment="Center">
+        <local:AppTextBox Width="200"
+                          Height="50"
+                          Text="{Binding TestString, Mode=TwoWay}"/>
+
+        <Label Content="{Binding TestString}"/>
+    </StackPanel>
 </Window>

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp11
 {
-    internal class MainWindowVM : INotifyPropertyChanged
+    public class MainWindowVM : INotifyPropertyChanged
     {
         private string _testString = "Better apologize Clemens";
 
